@@ -38,7 +38,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: 200;
   line-height: 30px;
   color: #FFFFFF;
-  background-color: #0095DA;  /* should be strong color on page */
+  background-color: #005DA4;  /* should be strong color on page */
   -webkit-border-radius: 0px;
      -moz-border-radius: 0px;
           border-radius: 0px;
@@ -71,7 +71,7 @@ div.chapter h2 {
 
 /* Things to understand (lead-in to sections in book). */
 .understand {
-    background-color: #FDB913;
+    background-color: #BFCD31;
 }
 
 /* Block quotations. */
@@ -172,7 +172,7 @@ div.footer {
 .cse-blue-bg {
     font-family: "Myriad Pro", "PT Sans", "Lucida Grande", Calibri, sans-serif;
     font-style: normal
-    background-color: #0095DA;
+    background-color: #005DA4;
 }
 
 #greybox { 
