@@ -10,12 +10,28 @@
 <div class="span4">
   <h4><strong>Virtual Machine</strong></h4>
   <p>
-    Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    <strong>Warning:</strong> this file is quite large,
-    so please download it <em>prior</em> to the workshop.
+    Install <a href="https://www.virtualbox.org/">VirtualBox</a> for your OS.
+    Download the virtual machine image located <a href="">here</a>.
+    (<strong>Warning:</strong> this file is quite large,
+    so please download it <em>prior</em> to the workshop.)
   </p>
   <p>
-    The image will be made available as soon as all data for exercises have been gathered.
+    To load the image into VirtualBox:
+    <ul>
+      <li>Open VirtualBox and select "New" at the top of the main window.</li>
+      <li>Create a virtual machine with name "ICME" and of type "Linux", version        "Ubuntu 32-bit".</li>
+      <li>Give the VM about half of your laptop's RAM.</li>
+      <li>Use the existing virtual hard drive file, selecting the image you
+        have downloaded from this site.</li>
+      <li>Open the Settings button and the Display tab.  Give the VM 128 MB of
+        video memory.</li>
+      <li>Also in Settings, under the Shared Folders tab, you may find it
+        convenient to add your Downloads folder as an automounted full-access
+        folder.  (This facilitates adding and removing files from the VM drive.)
+      <li>Press "Start" to open the VM.</li>
+      <li>I also find it convenient to share the clipboard between my main
+        computer and my VM (in the menu, Devices&#8594;Shared Clipboard&#8594;Bidirectional)</li>
+    </ul>
   </p>
   <h4><strong>LAMMPS</strong> Molecular Dynamics</h4>
   <p>
@@ -58,6 +74,12 @@
     <a href="https://webstore.illinois.edu/Shop/product.aspx?zpid=1271">sitewide MATLAB
     license</a>, we will use MATLAB 8.3 R2014a.
   </p>
+  <p>
+    As MATLAB is not supported on virtual machines, a tweak is necessary for it
+    to work properly.  Please open the Settings in VirtualBox and open the
+    Network tab.  Under the advanced drop-down, please change the MAC address to
+    080027F34F0C.
+  </p>
   <h4><strong>COMSOL</strong> Multiphysics</h4>
   <p>
     <a href="http://www.comsol.com/comsol-multiphysics">COMSOL</a> is a general-purpose
@@ -67,4 +89,5 @@
   <p>
     COMSOL will provide a temporary license and installation files for the latest version
     at the COMSOL workshop Friday afternoon.
-  </p>
+    </p>
+</div>
